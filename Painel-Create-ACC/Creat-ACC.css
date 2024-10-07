@@ -11,8 +11,7 @@ body {
     align-items: center;
 }
 
-
-
+/* Configurações de estilo do container */ 
 
 .container  {
     width: 100%;
@@ -23,34 +22,58 @@ body {
     box-sizing: border-box;
 }
 
+/*Configurações de estilo do bloco esquerdo*/
 .bloco-esquerdo {
     width: 50%;
     height: 100vh;
     background-color: #050A24;
+    display: flex;
 }
 
+/*Configurações dp estilo do bloco Direito do formulario*/
 .bloco-direito {
     width: 50%;
     height: 100vh;
-
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-
+/* Estilo da div contendo formulario de login*/
 .formulario {
     display: grid;
     width: auto;
     height: 428px;
     justify-content: center;
     align-items: center;
-    background-color: rgb(177, 177, 177);
 
 }
 
+/*Titulo de Cadastro*/
 .Titulo-Criação-de-Conta {
     font-family: Touch-Bold;
+    color: #344054;
     font-size: 48px;
     margin-bottom: 32px;
+}
+
+/*Titulos de credenciais de cadastro como Email e login*/
+.credenciais {
+    color: #344054;
+    font-family: Touche-Semibold;
+    width: 400px;
+    height: 16px;
+
+}
+
+/*input de credenciais de cadastro Email e Login*/
+.comum-input {
+    display: flex;
+    width: 400px;
+    height: 48px;
+    border-radius: 8px;
+    font-family: Touche-Semibold;
+    padding-left: 16px;
+    color: #344054;
+    border: 2px solid rgba(208, 213, 221, 0.5);
 }
