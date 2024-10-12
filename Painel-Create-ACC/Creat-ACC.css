@@ -53,7 +53,7 @@ body {
 .Titulo-Criação-de-Conta {
     font-family: Touch-Bold;
     color: #344054;
-    font-size: 48px;
+    font-size: 28px;
     margin-bottom: 32px;
 }
 
@@ -72,8 +72,56 @@ body {
     width: 400px;
     height: 48px;
     border-radius: 8px;
-    font-family: Touche-Semibold;
+    font-family: grotesk-regular;
     padding-left: 16px;
-    color: #344054;
+    color: #D0D5DD;
     border: 2px solid rgba(208, 213, 221, 0.5);
 }
+
+.comum-input::placeholder {
+    color: #c2c5ca;
+    font-family: grotesk-regular;
+}
+
+/* botão de criação de conta */
+.bnt-crate-acc {
+    width: 100%;
+    height: 48px;
+    font-family: Touch-Bold;
+    border-radius: 8px;
+    background-color: #D1E9FF;
+    border: none;
+    color: #1570EF;
+    font-size: 16px;
+}
+
+/* botão de logar com a conta */
+.bnt-login-google {
+    width: 100%;
+    height: 48px;
+    font-family: Touch-Bold;
+    border-radius: 8px;
+    color: #1570EF;
+    border: none;
+    background-color: #D1E9FF;
+    font-size: 16px;
+}
+
+/*Texto perguntando se ja tem uma conta e quer logar*/
+.commum-paragraf {
+    text-align: center;
+    font-size: 16px;
+    font-family: grotesk-regular;
+    color: #c2c5ca;
+}
+
+.btn-login {
+    border: none;
+    background: none;
+    color: #1570EF;
+}
+
+/* Edição do bloco direito */
+
+
+

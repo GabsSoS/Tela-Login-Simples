@@ -10,3 +10,8 @@
     font-family: Touche-Semibold;
     src: url(Fonts/Touche-Semibold.otf);
 }
+
+@font-face {
+    font-family: grotesk-regular;
+    src: url(Fonts/hk-grotesk.regular.otf);
+}
