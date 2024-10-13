@@ -76,9 +76,20 @@ body {
     padding-left: 16px;
     color: #D0D5DD;
     border: 2px solid rgba(208, 213, 221, 0.5);
-    
+    outline: none;
 }
 
+/* Ação de foco ao passar o mouse em cima do input */
+.comum-input:hover {
+    outline:  2px solid #8ec3f4;
+}
+
+/* Ação de foco ao clicar no input */
+.comum-input:focus {
+    outline:  2px solid #8ec3f4;
+}
+
+/* Definição de cor e fonte do placeholder */
 .comum-input::placeholder {
     color: #c2c5ca;
     font-family: grotesk-regular;
@@ -98,6 +109,8 @@ body {
     transition: background-color 0.3s;
     cursor: pointer;
 }
+
+/* Animação para mudar a cor do botão */
 
 .bnt-crate-acc:hover,
 .bnt-login-google:hover {
