@@ -76,6 +76,7 @@ body {
     padding-left: 16px;
     color: #D0D5DD;
     border: 2px solid rgba(208, 213, 221, 0.5);
+    
 }
 
 .comum-input::placeholder {
@@ -93,6 +94,16 @@ body {
     border: none;
     color: #1570EF;
     font-size: 16px;
+
+    transition: background-color 0.3s;
+    cursor: pointer;
+}
+
+.bnt-crate-acc:hover,
+.bnt-login-google:hover {
+
+    background-color: #1570EF;
+    color: white;
 }
 
 /* botão de logar com a conta */
@@ -105,6 +116,9 @@ body {
     border: none;
     background-color: #D1E9FF;
     font-size: 16px;
+    
+    transition: background-color 0.3s;
+    cursor: pointer;
 }
 
 /*Texto perguntando se ja tem uma conta e quer logar*/
@@ -115,6 +129,7 @@ body {
     color: #c2c5ca;
 }
 
+/*btn para logar*/
 .btn-login {
     border: none;
     background: none;
@@ -123,5 +138,58 @@ body {
 
 /* Edição do bloco direito */
 
+.info-esquerda {
+    width: 100vh;
+    height: 100vh;
+    display: flex;
+}
+
+/* Iluminação superior direito */
+.iluminacao-superior-direito {
+    position: absolute;
+    width: 600px;
+    height: 600px;
+    border-left: 100%;
+    border-radius: 1000px 0px 0px 10000px;
+    right: 50%;
+    top: -10%;
+    background-color: #1570ef2d;
+    filter: blur(100px);
+}
+
+/* Iluminação inferior esquerdo */
+.iluminacao-inferior-esquerdo {
+    position: absolute;
+    width: 800px;
+    height: 800px;
+    border-left: 100%;
+    border-radius: 100% ;
+    bottom: -35%;
+    left: -15%;
+    background-color: #1570ef2d;
+    filter: blur(100px);
+}
+
+/*bloco de texto bem vindo lateral esquerda*/
+.bem-vindo {
+    position: absolute;
+    bottom: -80px;
+    text-align: left;
+    width: 500px;
+    height: 400px;
+    left: 80px;
+}
+
+/* texto bem vindo lateral esquerda*/
+.frase-bem-vindo {
+    font-size: 56px;
+    font-family: Goldbill-italic;
+
+    background: linear-gradient(175deg, #ffffff, #050A24);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+}
 
 

@@ -15,3 +15,8 @@
     font-family: grotesk-regular;
     src: url(Fonts/hk-grotesk.regular.otf);
 }
+
+@font-face {
+    font-family: Goldbill-italic;
+    src: url(Fonts/Goldbill-XSBookItalic.ttf);
+}
