@@ -67,7 +67,8 @@ body {
 }
 
 /*input de credenciais de cadastro Email e Login*/
-.comum-input {
+.comum-input-email,
+.comum-input-senha {
     display: flex;
     width: 400px;
     height: 48px;
@@ -80,14 +81,27 @@ body {
 }
 
 /* Ação de foco ao passar o mouse em cima do input */
-.comum-input:hover {
+.comum-input-email:hover,
+.comum-input-senha:hover {
     outline:  2px solid #8ec3f4;
 }
 
 /* Ação de foco ao clicar no input */
-.comum-input:focus {
+.comum-input-email:focus,
+.comum-input-senha:focus {
     outline:  2px solid #8ec3f4;
 }
+
+/* Olho para mostrar a senha */
+.comum-input-senha{
+
+
+    background-image: url(Icons/olho.png);
+    background-repeat: no-repeat;
+    background-position: right 16px center;
+    
+}
+
 
 /* Definição de cor e fonte do placeholder */
 .comum-input::placeholder {
@@ -147,6 +161,8 @@ body {
     border: none;
     background: none;
     color: #1570EF;
+    font-family: grotesk-regular;
+    cursor: pointer;
 }
 
 /* Edição do bloco direito */
@@ -205,4 +221,25 @@ body {
     color: transparent;
 }
 
+/* configurações tamanho div */
+.logo-name {
+    position: absolute;
+    width: auto;
+    height: auto;
+    left: 80px;
+    top: 64px;
+}
 
+.logo-name {
+
+    font-family: TafelSansPro;
+    color: #FFFFFF;
+    font-size: 28px;
+
+}
+
+.poiter {
+    font-family: TafelSansPro;
+    color: #1570EF;
+    font-size: 28px;
+}

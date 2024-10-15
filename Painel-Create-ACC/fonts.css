@@ -20,3 +20,8 @@
     font-family: Goldbill-italic;
     src: url(Fonts/Goldbill-XSBookItalic.ttf);
 }
+
+@font-face {
+    font-family: TafelSansPro;
+    src: url(Fonts/TafelSansPro-Bold.ttf);
+}
