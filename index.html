@@ -37,7 +37,12 @@
                 <input class="comum-input-email" type="email" placeholder="Digite seu Email">
                 <!-- Configurações Senha do formulario-->
                 <span class="credenciais">Password</span>
-                <input class="comum-input-senha" type="password" placeholder="Digite sua senha" >
+                
+                <div class="view-password">
+                
+                    <input class="comum-input-senha" id="input-senha" type="password" placeholder="Digite sua senha" >
+                    <!--Botão para visualizar senha-->
+                    <img class="eye" id="eye" src="Painel-Create-ACC/Icons/desactive_eye.png" alt="" onclick="window.onload; changeImage()"></div>
                 <!--Botão para criar conta no site-->
                 <button class="bnt-crate-acc">Create account</button>
                 <!-- Botão para logar através do google-->
@@ -48,6 +53,8 @@
         </div>
 
     </div>
+
+    <script src="Painel-Create-ACC/js/functionpassword.js"></script>
 </body>
 
 </html>

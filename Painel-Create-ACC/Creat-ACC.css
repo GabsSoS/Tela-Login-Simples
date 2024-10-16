@@ -75,7 +75,8 @@ body {
     border-radius: 8px;
     font-family: grotesk-regular;
     padding-left: 16px;
-    color: #D0D5DD;
+    color: #817B76;
+    
     border: 2px solid rgba(208, 213, 221, 0.5);
     outline: none;
 }
@@ -92,22 +93,28 @@ body {
     outline:  2px solid #8ec3f4;
 }
 
-/* Olho para mostrar a senha */
-.comum-input-senha{
-
-
-    background-image: url(Icons/olho.png);
-    background-repeat: no-repeat;
-    background-position: right 16px center;
-    
-}
-
-
 /* Definição de cor e fonte do placeholder */
 .comum-input::placeholder {
     color: #c2c5ca;
     font-family: grotesk-regular;
 }
+
+/* bloco contendo input de password*/
+.view-password {
+    position: relative;
+}
+
+.eye {
+    position: absolute;
+    right: 0;
+    top: 15px;
+    margin-right: 16px;
+    cursor: pointer;
+}
+
+
+
+
 
 /* botão de criação de conta */
 .bnt-crate-acc {
