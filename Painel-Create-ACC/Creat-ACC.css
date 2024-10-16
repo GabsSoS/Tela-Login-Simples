@@ -104,6 +104,7 @@ body {
     position: relative;
 }
 
+/* configuraç~eos de posicionamento e alinhamento do eye*/
 .eye {
     position: absolute;
     right: 0;
@@ -111,10 +112,6 @@ body {
     margin-right: 16px;
     cursor: pointer;
 }
-
-
-
-
 
 /* botão de criação de conta */
 .bnt-crate-acc {
@@ -237,6 +234,7 @@ body {
     top: 64px;
 }
 
+/* Logo da logimafa*/
 .logo-name {
 
     font-family: TafelSansPro;
@@ -245,6 +243,7 @@ body {
 
 }
 
+/*Ponto final da Logo*/
 .poiter {
     font-family: TafelSansPro;
     color: #1570EF;
